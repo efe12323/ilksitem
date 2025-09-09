@@ -23,3 +23,15 @@ img {
   max-width: 400px;    /* Çok büyükse küçültür */
   border-radius: 10px; /* Köşeleri biraz yuvarlar */
 }
+button {
+  margin-top: 20px;   /* Butonun üstünde boşluk bırakır */
+  padding: 10px 20px; /* Butonun içine boşluk (genişlik-yükseklik) */
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: darkblue; /* Üzerine gelince rengi koyulaşır */
+}
