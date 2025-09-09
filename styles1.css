@@ -1,0 +1,44 @@
+/* Genel yazı tipi ve ortalama */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+/* Başlık */
+h1 {
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+/* Tablo tasarımı */
+table {
+  margin: 30px auto;          /* Ortada durmasını sağlar */
+  border-collapse: collapse;  /* Çift çizgileri tekleştirir */
+  width: 60%;                 /* Tablo genişliği */
+  background-color: white;    /* Beyaz arka plan */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Hafif gölge */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Başlık hücreleri */
+th {
+  background-color: #2980b9;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+/* Normal hücreler */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Satır üzerine gelince renk değişsin */
+tr:hover {
+  background-color: #f5f5f5;
+}
