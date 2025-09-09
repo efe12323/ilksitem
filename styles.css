@@ -1,9 +1,25 @@
 body {
   background-color: powderblue;
+  text-align: center; /* Tüm yazıları ortalar */
+  font-family: Arial, sans-serif; /* Daha güzel görünüm için */
 }
+
 h1 {
   color: blue;
+  margin-top: 20px; /* Sayfanın üstünden biraz boşluk */
 }
+
+h2 {
+  color: darkblue;
+}
+
 p {
   color: red;
+}
+
+img {
+  display: block;      /* Resmi satır elemanı olmaktan çıkarır */
+  margin: 20px auto;   /* Hem sağdan hem soldan otomatik boşluk bırakır */
+  max-width: 400px;    /* Çok büyükse küçültür */
+  border-radius: 10px; /* Köşeleri biraz yuvarlar */
 }
